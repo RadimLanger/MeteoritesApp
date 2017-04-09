@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AEEFF701E9A8DE80046A175 /* MeteoritesResultTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEEFF6F1E9A8DE80046A175 /* MeteoritesResultTableView.swift */; };
+		0AEEFF721E9A94CE0046A175 /* MeteoriteCollectionSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEEFF711E9A94CE0046A175 /* MeteoriteCollectionSorter.swift */; };
+		0AEEFF741E9A98610046A175 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEEFF731E9A98610046A175 /* NetworkReachability.swift */; };
+		0AEEFF761E9ABE710046A175 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEEFF751E9ABE710046A175 /* AppUtility.swift */; };
 		0AF40A391E990315006B4496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF40A381E990315006B4496 /* AppDelegate.swift */; };
-		0AF40A3B1E990316006B4496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF40A3A1E990316006B4496 /* ViewController.swift */; };
+		0AF40A3B1E990316006B4496 /* MeteorResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF40A3A1E990316006B4496 /* MeteorResultTableViewController.swift */; };
 		0AF40A3E1E990316006B4496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF40A3C1E990316006B4496 /* Main.storyboard */; };
 		0AF40A401E990316006B4496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF40A3F1E990316006B4496 /* Assets.xcassets */; };
 		0AF40A431E990316006B4496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF40A411E990316006B4496 /* LaunchScreen.storyboard */; };
 		0AF40A4E1E990316006B4496 /* MeteoriteLandingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF40A4D1E990316006B4496 /* MeteoriteLandingTests.swift */; };
+		0AF40A591E9906E9006B4496 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF40A581E9906E9006B4496 /* LaunchViewController.swift */; };
+		0AF40A5B1E990CE3006B4496 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF40A5A1E990CE3006B4496 /* APIHandler.swift */; };
+		0AF40A5D1E990F73006B4496 /* Meteorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF40A5C1E990F73006B4496 /* Meteorite.swift */; };
+		0AF40A6D1E992425006B4496 /* MeteoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF40A6C1E992425006B4496 /* MeteoriteTableViewCell.swift */; };
+		0AF40A6F1E993D88006B4496 /* MeteoriteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF40A6E1E993D88006B4496 /* MeteoriteDetailViewController.swift */; };
+		0E9E077F8EAABA18EB27B6E5 /* Pods_MeteoriteLandingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA25A2977D97AB4FE2F77B6 /* Pods_MeteoriteLandingTests.framework */; };
+		1617C4631DF8077CC865AD30 /* Pods_MeteoriteLanding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FC3B6F6603DA9FAFE6C8E2 /* Pods_MeteoriteLanding.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AEEFF6F1E9A8DE80046A175 /* MeteoritesResultTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoritesResultTableView.swift; sourceTree = "<group>"; };
+		0AEEFF711E9A94CE0046A175 /* MeteoriteCollectionSorter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoriteCollectionSorter.swift; sourceTree = "<group>"; };
+		0AEEFF731E9A98610046A175 /* NetworkReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		0AEEFF751E9ABE710046A175 /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 		0AF40A351E990315006B4496 /* MeteoriteLanding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteoriteLanding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF40A381E990315006B4496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0AF40A3A1E990316006B4496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AF40A3A1E990316006B4496 /* MeteorResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorResultTableViewController.swift; sourceTree = "<group>"; };
 		0AF40A3D1E990316006B4496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AF40A3F1E990316006B4496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AF40A421E990316006B4496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +51,17 @@
 		0AF40A491E990316006B4496 /* MeteoriteLandingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteoriteLandingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF40A4D1E990316006B4496 /* MeteoriteLandingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoriteLandingTests.swift; sourceTree = "<group>"; };
 		0AF40A4F1E990316006B4496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF40A581E9906E9006B4496 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		0AF40A5A1E990CE3006B4496 /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		0AF40A5C1E990F73006B4496 /* Meteorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meteorite.swift; sourceTree = "<group>"; };
+		0AF40A6C1E992425006B4496 /* MeteoriteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoriteTableViewCell.swift; sourceTree = "<group>"; };
+		0AF40A6E1E993D88006B4496 /* MeteoriteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoriteDetailViewController.swift; sourceTree = "<group>"; };
+		42FC3B6F6603DA9FAFE6C8E2 /* Pods_MeteoriteLanding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeteoriteLanding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5058152CDC447B916CCC9904 /* Pods-MeteoriteLandingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteoriteLandingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeteoriteLandingTests/Pods-MeteoriteLandingTests.release.xcconfig"; sourceTree = "<group>"; };
+		AAE3FA408DEADF11BED78BC3 /* Pods-MeteoriteLanding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteoriteLanding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeteoriteLanding/Pods-MeteoriteLanding.debug.xcconfig"; sourceTree = "<group>"; };
+		B51AD5CC8A348F334AA8810A /* Pods-MeteoriteLanding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteoriteLanding.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeteoriteLanding/Pods-MeteoriteLanding.release.xcconfig"; sourceTree = "<group>"; };
+		C430351AD7ADB6D0BEDDB46C /* Pods-MeteoriteLandingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteoriteLandingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeteoriteLandingTests/Pods-MeteoriteLandingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAA25A2977D97AB4FE2F77B6 /* Pods_MeteoriteLandingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeteoriteLandingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1617C4631DF8077CC865AD30 /* Pods_MeteoriteLanding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +77,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E9E077F8EAABA18EB27B6E5 /* Pods_MeteoriteLandingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AEEFF771E9AC17D0046A175 /* MeteorDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0AF40A6E1E993D88006B4496 /* MeteoriteDetailViewController.swift */,
+			);
+			name = MeteorDetail;
+			sourceTree = "<group>";
+		};
+		0AEEFF781E9AC19D0046A175 /* MeteorResults */ = {
+			isa = PBXGroup;
+			children = (
+				0AF40A3A1E990316006B4496 /* MeteorResultTableViewController.swift */,
+				0AEEFF7C1E9AC2690046A175 /* Views */,
+				0AEEFF7D1E9AC27A0046A175 /* Model */,
+			);
+			name = MeteorResults;
+			sourceTree = "<group>";
+		};
+		0AEEFF791E9AC1B30046A175 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0AEEFF751E9ABE710046A175 /* AppUtility.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		0AEEFF7A1E9AC1C90046A175 /* AppLaunchController */ = {
+			isa = PBXGroup;
+			children = (
+				0AF40A581E9906E9006B4496 /* LaunchViewController.swift */,
+			);
+			name = AppLaunchController;
+			sourceTree = "<group>";
+		};
+		0AEEFF7C1E9AC2690046A175 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AEEFF6F1E9A8DE80046A175 /* MeteoritesResultTableView.swift */,
+				0AF40A6C1E992425006B4496 /* MeteoriteTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0AEEFF7D1E9AC27A0046A175 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AEEFF711E9A94CE0046A175 /* MeteoriteCollectionSorter.swift */,
+				0AF40A5C1E990F73006B4496 /* Meteorite.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0AEEFF7E1E9AC2B00046A175 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0AEEFF731E9A98610046A175 /* NetworkReachability.swift */,
+				0AF40A5A1E990CE3006B4496 /* APIHandler.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 		0AF40A2C1E990315006B4496 = {
 			isa = PBXGroup;
 			children = (
 				0AF40A371E990315006B4496 /* MeteoriteLanding */,
 				0AF40A4C1E990316006B4496 /* MeteoriteLandingTests */,
 				0AF40A361E990315006B4496 /* Products */,
+				D48ED35BF28B9041B80DCC97 /* Pods */,
+				DCEDCFC494E50FB9A8E00ECE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +168,13 @@
 		0AF40A371E990315006B4496 /* MeteoriteLanding */ = {
 			isa = PBXGroup;
 			children = (
-				0AF40A381E990315006B4496 /* AppDelegate.swift */,
-				0AF40A3A1E990316006B4496 /* ViewController.swift */,
+				0AEEFF7A1E9AC1C90046A175 /* AppLaunchController */,
+				0AEEFF781E9AC19D0046A175 /* MeteorResults */,
+				0AEEFF771E9AC17D0046A175 /* MeteorDetail */,
+				0AEEFF7E1E9AC2B00046A175 /* Networking */,
+				0AEEFF791E9AC1B30046A175 /* Helpers */,
 				0AF40A3C1E990316006B4496 /* Main.storyboard */,
-				0AF40A3F1E990316006B4496 /* Assets.xcassets */,
-				0AF40A411E990316006B4496 /* LaunchScreen.storyboard */,
-				0AF40A441E990316006B4496 /* Info.plist */,
+				0AF40A5E1E990FB1006B4496 /* Supporting Files */,
 			);
 			path = MeteoriteLanding;
 			sourceTree = "<group>";
@@ -96,6 +188,37 @@
 			path = MeteoriteLandingTests;
 			sourceTree = "<group>";
 		};
+		0AF40A5E1E990FB1006B4496 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AF40A381E990315006B4496 /* AppDelegate.swift */,
+				0AF40A3F1E990316006B4496 /* Assets.xcassets */,
+				0AF40A411E990316006B4496 /* LaunchScreen.storyboard */,
+				0AF40A441E990316006B4496 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D48ED35BF28B9041B80DCC97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAE3FA408DEADF11BED78BC3 /* Pods-MeteoriteLanding.debug.xcconfig */,
+				B51AD5CC8A348F334AA8810A /* Pods-MeteoriteLanding.release.xcconfig */,
+				C430351AD7ADB6D0BEDDB46C /* Pods-MeteoriteLandingTests.debug.xcconfig */,
+				5058152CDC447B916CCC9904 /* Pods-MeteoriteLandingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCEDCFC494E50FB9A8E00ECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42FC3B6F6603DA9FAFE6C8E2 /* Pods_MeteoriteLanding.framework */,
+				EAA25A2977D97AB4FE2F77B6 /* Pods_MeteoriteLandingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AF40A521E990316006B4496 /* Build configuration list for PBXNativeTarget "MeteoriteLanding" */;
 			buildPhases = (
+				42D2C4C5DFE0ABE3EE97871E /* [CP] Check Pods Manifest.lock */,
 				0AF40A311E990315006B4496 /* Sources */,
 				0AF40A321E990315006B4496 /* Frameworks */,
 				0AF40A331E990315006B4496 /* Resources */,
+				9BB07EDD663571BE79E6DD97 /* [CP] Embed Pods Frameworks */,
+				072FD7C92B313EF09D1A6A22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AF40A551E990316006B4496 /* Build configuration list for PBXNativeTarget "MeteoriteLandingTests" */;
 			buildPhases = (
+				FF3601A8500DB51645C03ECA /* [CP] Check Pods Manifest.lock */,
 				0AF40A451E990316006B4496 /* Sources */,
 				0AF40A461E990316006B4496 /* Frameworks */,
 				0AF40A471E990316006B4496 /* Resources */,
+				3855EEF3E4C93EEE8C04FA6B /* [CP] Embed Pods Frameworks */,
+				C646DBA09F52FE19F3DB7665 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,13 +325,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		072FD7C92B313EF09D1A6A22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeteoriteLanding/Pods-MeteoriteLanding-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3855EEF3E4C93EEE8C04FA6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeteoriteLandingTests/Pods-MeteoriteLandingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42D2C4C5DFE0ABE3EE97871E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BB07EDD663571BE79E6DD97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeteoriteLanding/Pods-MeteoriteLanding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C646DBA09F52FE19F3DB7665 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeteoriteLandingTests/Pods-MeteoriteLandingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3601A8500DB51645C03ECA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AF40A311E990315006B4496 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AF40A3B1E990316006B4496 /* ViewController.swift in Sources */,
+				0AF40A6D1E992425006B4496 /* MeteoriteTableViewCell.swift in Sources */,
+				0AEEFF721E9A94CE0046A175 /* MeteoriteCollectionSorter.swift in Sources */,
+				0AF40A3B1E990316006B4496 /* MeteorResultTableViewController.swift in Sources */,
+				0AEEFF761E9ABE710046A175 /* AppUtility.swift in Sources */,
+				0AF40A591E9906E9006B4496 /* LaunchViewController.swift in Sources */,
 				0AF40A391E990315006B4496 /* AppDelegate.swift in Sources */,
+				0AF40A5D1E990F73006B4496 /* Meteorite.swift in Sources */,
+				0AEEFF701E9A8DE80046A175 /* MeteoritesResultTableView.swift in Sources */,
+				0AF40A6F1E993D88006B4496 /* MeteoriteDetailViewController.swift in Sources */,
+				0AF40A5B1E990CE3006B4496 /* APIHandler.swift in Sources */,
+				0AEEFF741E9A98610046A175 /* NetworkReachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -339,10 +570,12 @@
 		};
 		0AF40A531E990316006B4496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE3FA408DEADF11BED78BC3 /* Pods-MeteoriteLanding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XAPRAVT2VF;
 				INFOPLIST_FILE = MeteoriteLanding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.radimLanger.MeteoriteLanding.MeteoriteLanding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,10 +585,12 @@
 		};
 		0AF40A541E990316006B4496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51AD5CC8A348F334AA8810A /* Pods-MeteoriteLanding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XAPRAVT2VF;
 				INFOPLIST_FILE = MeteoriteLanding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.radimLanger.MeteoriteLanding.MeteoriteLanding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,6 +600,7 @@
 		};
 		0AF40A561E990316006B4496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C430351AD7ADB6D0BEDDB46C /* Pods-MeteoriteLandingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +616,7 @@
 		};
 		0AF40A571E990316006B4496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5058152CDC447B916CCC9904 /* Pods-MeteoriteLandingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +649,7 @@
 				0AF40A541E990316006B4496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AF40A551E990316006B4496 /* Build configuration list for PBXNativeTarget "MeteoriteLandingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +658,7 @@
 				0AF40A571E990316006B4496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
