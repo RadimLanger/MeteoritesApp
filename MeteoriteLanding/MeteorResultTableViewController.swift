@@ -15,6 +15,7 @@ class MeteorResultTableViewController: UITableViewController {
     private var meteoritesDataCollection: [Meteorite]? {
         didSet {
             didAnimateTableView ? tableView.reloadData() : animateTable()
+            title = "Meteorites (\(String(describing: meteoritesDataCollection!.count)))"
         }
     }
     

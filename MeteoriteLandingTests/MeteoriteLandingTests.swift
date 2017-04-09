@@ -16,7 +16,19 @@ class MeteoriteLandingTests: XCTestCase {
     let apiHandler = APIHandler()
     let APIURLString = "https://data.nasa.gov/resource/y77d-th95.json?$where=year >= '2011-01-01T00:00:00'"
     let headers = ["X-App-Token": "glEDYc5VHKpULc6er0kZlvZIv"]
-
+    
+    let formatter: DateFormatter = {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS"
+        dateFormatter.timeZone = TimeZone(abbreviation: "GMT")
+        return dateFormatter
+    }()
+    
+    let calendar: Calendar = {
+        var calendar = Calendar.current
+        calendar.timeZone = TimeZone(abbreviation: "GMT")!
+        return calendar
+    }()
 
     func test_validObjectResponse_noNetworkError_ValidMeteoriteCollection() {
         
@@ -30,7 +42,7 @@ class MeteoriteLandingTests: XCTestCase {
         }
     }
     
-    func test_ParsingJSON() {
+    func test_ParsingJSON_yearBiggerThan2011() {
 
         let URL = APIURLString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
 
@@ -48,6 +60,10 @@ class MeteoriteLandingTests: XCTestCase {
                     XCTAssertNotNil(subJSON["fall"].stringValue)
                     XCTAssertNotNil(subJSON["geolocation", "coordinates"][0].doubleValue)
                     XCTAssertNotNil(subJSON["geolocation", "coordinates"][1].doubleValue)
+                    
+                    let impactDate = self.formatter.date(from: subJSON["year"].stringValue)!
+                    let yearInt = self.calendar.component(.year, from: impactDate)
+                    XCTAssertGreaterThanOrEqual(yearInt, 2011)
                 }
             }
 
